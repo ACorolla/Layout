@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>float02Layout</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        .three-columns-wrapper div {
+            position: relative;
+            min-height: 400px;
+        }
+        .three-columns-wrapper .columns-left {
+            position: absolute;
+        }
+        .three-columns-wrapper .columns-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .three-columns-wrapper .columns-center {
+            margin: 0 300px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="three-columns-wrapper clear-fix">
+            <div class="columns-left side"></div>
+            <div class="columns-center center">The best language is javascript</div>
+            <div class="columns-right side"></div>
+        </div>
+    </section>
+</body>
+</html>

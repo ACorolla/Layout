@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tableLayout</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        .three-columns-wrapper {
+            display: table;
+            width: 100%;
+            min-height: 400px;
+        }
+        .three-columns-wrapper div {
+            display: table-cell;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="three-columns-wrapper clear-fix">
+            <div class="columns-left side"></div>
+            <div class="columns-center center">The best language is javascript</div>
+            <div class="columns-right side"></div>
+        </div>
+    </section>
+</body>
+</html>

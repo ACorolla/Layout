@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gridLayout</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        .three-columns-wrapper {
+            display: grid;
+            width: 100%;
+            grid-template-rows: 400px;
+            grid-template-columns: 300px auto 300px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="three-columns-wrapper clear-fix">
+            <div class="columns-left side"></div>
+            <div class="columns-center center">The best language is javascript</div>
+            <div class="columns-right side"></div>
+        </div>
+    </section>
+</body>
+</html>

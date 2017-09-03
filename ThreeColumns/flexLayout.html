@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flexLayout</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        .three-columns-wrapper {
+            display: flex;
+            min-height: 400px;
+        }
+        .three-columns-wrapper .columns-center {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="three-columns-wrapper clear-fix">
+            <div class="columns-left side"></div>
+            <div class="columns-center center">The best language is javascript</div>
+            <div class="columns-right side"></div>
+        </div>
+    </section>
+</body>
+</html>

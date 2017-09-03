@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>absoluteLayout</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        .three-columns-wrapper div{
+            min-height: 400px;
+            position: absolute;
+        }
+        .three-columns-wrapper .columns-left {
+            left: 0;
+        }
+        .three-columns-wrapper .columns-center {
+            left: 300px;
+            right: 300px;
+        }
+        .three-columns-wrapper .columns-right {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="three-columns-wrapper clear-fix">
+            <div class="columns-left side"></div>
+            <div class="columns-center center">The best language is javascript</div>
+            <div class="columns-right side"></div>
+        </div>
+    </section>
+</body>
+</html>
